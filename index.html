@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+<div class="flex-container">
+    <h2>Magic 8 Ball</h2>
+    <div class="divider"></div>
+    <!-- magic-8-ball -->
+    <div class="magic-8-ball">
+        <img id="eight-ball" onclick="eightBallShake()" src="./assets/images/magic-8-ball-fixed.svg" alt="eight-ball">
+        <h1 class="eight-ball-text fade-in fade-out"></h1>
+    </div>
+    <!-- shake button -->
+    <div class="btn-flex-item">
+        <button class="shakeBtn" onclick="eightBallShake()">Shake</button>
+    </div>
+    <div class="divider"></div>
+</div>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
